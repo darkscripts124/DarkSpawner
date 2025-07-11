@@ -48,7 +48,7 @@ else
         game.StarterGui:SetCore("SendNotification", {
             Title = "Executor Detected";
             Text = "You're using: " .. execName;
-            Duration = 5;
+            Duration = 5000;
         })
     end)
 end
